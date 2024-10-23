@@ -7,6 +7,7 @@ const axiosApi = axios.create({
   headers: {
     Accept: "application/json",
     "Content-Type": "application/json",
+    scheme: "http"
   },
 });
 
